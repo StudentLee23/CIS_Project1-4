@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/*
+CIS162 Project 1-4
+Author: Lee Chuor
+Date:  11-11-23
+*/
+
+/*HTML and Body*/
+html {background-color: darkblue;}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 90%;
+}
+
+body {
+    color: lightgray;
+    font-family: Comic, sans-serif;
+    font-size: 12pt;
+}
+
+body h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 72pt;
+}
+
+/*Body Header Styles*/
+body > header > img {
+    display: block;
+    width: 100%;
+}
+
+body > header > nav.horizontalNavigation li {
+    display: block;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+/*Linked page*/
+body > header > nav.horizontalNavigation a:link {
+    display: block;
+    font-size: 16pt;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+body > header > nav.horizontalNavigation a:hover {
+    color: orange;
+}
+
+body > header > nav.horizontalNavigation a:visited {
+    color: gray;
+}
+
+body > section h2 {
+    color: orange;
+    font-size: 4em;
+    font-family: Georgia, cursive;
+    font-style: italic;
+    text-align: center;
+}
+
+body > section h3 {
+    color: lightskyblue;
+    text-align: center;
+}
+
+/*high school*/
+section#highSchool {
+    display: block;
+    float: left;
+    width: 100%;
+    font-size: 14pt;
+}
+
+section#highSchool img {
+
+    display: block;
+    width: 100%;
+}
+
+/*Left Column */
+section#leftColumn {
+    display: block;
+    float: left;
+    width: 55%;
+}
+
+section#leftColumn img {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+/*Right Column*/
+section#rightColumn {
+    float: left;
+    width: 45%;
+}
+
+section#rightColumn img {
+    display: block;
+    width: 100%;
+}

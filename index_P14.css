@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/*
+CIS162 Project 1-4
+Author: Lee Chuor
+Date:  11-11-23
+*/
+
+/*HTML and Body*/
+html {background-color: black;}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 80%;
+}
+
+body {
+    color: lightgray;
+    font-family: Comic, sans-serif;
+    font-size: 12pt;
+}
+
+/*Body Header Styles*/
+body > header > img {
+    display: block;
+    width: 100%;
+}
+
+body > header > nav.horizontalNavigation li {
+    display: block;
+    width: 33.3%;
+    float: left;
+}
+
+/*Linked page*/
+body > header > nav.horizontalNavigation a:link {
+    display: block;
+    font-size: 16pt;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+body > header > nav.horizontalNavigation a:hover {
+    color: orange;
+}
+
+body > header > nav.horizontalNavigation a:visited {
+    color: gray;
+}
+
+/*Left Column*/
+section#leftColumn {
+    clear: left;
+    float: left;
+    width: 70%;
+    font-size: 14pt;
+}
+
+section#leftColumn > h1 {
+    color: orange;
+    font-size: 4em;
+    font-family: Georgia, cursive;
+    font-style: italic;
+}
+
+section#leftColumn > p a:link {
+    color: pink;
+    text-decoration: none;
+}
+
+section#leftColumn > p a:visited {
+    color: pink;
+    text-decoration: none;
+}
+
+/*Right Column*/
+section#rightColumn {
+    float: left;
+    width: 30%;
+    font-size: 13pt;
+}
+
+section#rightColumn > h1{
+    color: orange;
+    font-size: 2.5em;
+    font-family: Georgia, cursive;
+    font-style: italic;
+    text-align: center;
+}
+
+/*Footer Favorite Sites*/
+footer > section#favoriteSites {
+    clear: left;
+    float: left;
+    width: 80%;
+    color: lightskyblue;
+    font-size: 12pt;
+}
+footer > section#favoriteSites > h1 {
+    color: blueviolet;
+}
+
+/*Footer contactInfo*/
+footer > section#contactInfo {
+    float: left;
+    width: 20%;
+}
+
+footer > section#contactInfo > h1 {
+    color: lightgray;
+}
+
+/*Nav List*/
+nav > ul {
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: .8em;
+}
+
+nav > ul > li >a:link {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+nav > ul > li >a:visited {
+    color: mediumblue;
+}
+
+/*list*/
+ol > li {
+    color: lightskyblue;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
